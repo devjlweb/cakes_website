@@ -8,6 +8,11 @@
 
 
   <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
 
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
@@ -20,6 +25,10 @@
 
   <!-- Bootstrap Scripts -->
   <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   
 
 </head>
@@ -28,24 +37,24 @@
     <div class="container col-xxl-8 px-4 py-5">
       <!-- Nav Bar -->
       <nav class="navbar navbar-dark  bg-transparent navbar-expand-md">
-        <div class="container">
-          <a href="#" class="navbar-brand">Navbar</a>
+        <div class="container px-0">
+          <a href="index.html" class="navbar-brand" id="navLogo">Ryle's Kitchen</a>
           <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarResponsiveMedium" aria-controls="navbarResponsiveMedium" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarResponsiveMedium">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a href="#" class="nav-link active" aria-current="page">Active</a>
+                <a href="#" class="nav-link active" aria-current="page">Home</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">Link</a>
+                <a href="#" class="nav-link">Blog</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">Link</a>
+                <a href="#" class="nav-link">Testimonials</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link disabled" tabindex="-1" aria-disabled="true">Disabled</a>
+                <a href="#" class="nav-link" >Contact Us</a>
               </li>
             </ul>
           </div>
@@ -53,7 +62,7 @@
       </nav>
 
       <!-- Title -->
-      <d class="row flex-lg-row-reverse align-items-center title g-5 py-5">
+      <d class="row flex-lg-row-reverse align-items-center title g-5 pb-5">
 
           <div class="col-10 col-sm-8 col-lg-6">
             <img src="images/cakeBoutique.jpg" alt="cake" class=" mx-lg-auto  img-fluid" width="700" height="500" loading="lazy">
@@ -62,9 +71,9 @@
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold 1h-1 mb-3 text-light ">Cake Art Theme</h1>
             <p class="text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi fugiat provident eius aliquam esse, reprehenderit modi, voluptatem ex atque repudiandae ea nihil impedit libero, natus expedita! Velit natus sed quidem?</p>
-            <button type="button" class="btn btn-dark btn-lg download-button "><i class="fab fa-apple"></i>Price-list</button>
+            <button type="button" class="btn btn-outline-light  btn-lg download-button "><i class="fab fa-apple"></i>Price-list</button>
 
-            <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i>Price-list</button>
+            <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-apple"></i>Quote Now</button>
           </div>
 
         </div>
@@ -97,33 +106,41 @@
 
   <!-- Testimonials -->
 
-  <section class="colored-section" id="testimonials">
+  <section class="colored-section bg-dark bg-gradient text-light" id="testimonials">
+
     <div id="testimonial-carousel" class="carousel slide" data-ride="false">
       <div class="carousel-inner">
       <!-- 1st Carousel Item -->
         <div class="carousel-item active container-fluid">
-          <h2 class="testimonial-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit assumenda sapiente eos, nihil molestias rerum architecto, vitae repellat, ut corrupti dolore libero. </h2>
-          <img src="images/cake 1.jpg" alt="cake 1">
+          <h2 class="testimonial-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit assumenda sapiente eos, nihil molestias rerum architecto. </h2>
+          <img class="testimonial-image" src="images/cake 1.jpg" alt="cake 1">
           <em>Thank you!</em>
         </div>
       <!-- 2nd Carousel Item -->
-        <div class="carousel-item active container-fluid">
-          <h2 class="testimonial-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit assumenda sapiente eos, nihil molestias rerum architecto, vitae repellat, ut corrupti dolore libero. </h2>
-          <img src="images/cake 2.jpg" alt="cake 2">
-          <em>Thank you!</em>
-        </div>
-
-      <!-- 3rd Carousel Item -->
-        <div class="carousel-item active container-fluid">
-          <h2 class="testimonial-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit assumenda sapiente eos, nihil molestias rerum architecto, vitae repellat, ut corrupti dolore libero. </h2>
-          <img src="images/cupcake.jpg" alt="cupcake">
+        <div class="carousel-item  container-fluid">
+          <h2 class="testimonial-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit assumenda sapiente eos, nihil molestias rerum architecto. </h2>
+          <img 
+          class="testimonial-image"
+          src="images/cake 2.jpg" alt="cake 2">
           <em>Thank you!</em>
         </div>
       </div>
-      <a href="" class="carousel-control-prev" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon"></span></a>
-      <a href="" class="carousel-control-next" role="button" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+      <a href="#testimonial-carousel" class="carousel-control-prev" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    </a>
+      <a href="#testimonial-carousel" class="carousel-control-next" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span></a>
     </div>
+  </section>
+
+  <!-- Press -->
+
+  <section class="colored-section bg-dark" id="press">
+    <img class="press-logo" src="images/techCrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
   </section>
 
   <!-- Pricing -->
@@ -132,7 +149,7 @@
     <h2 class="section-heading">Cakes for Birthday</h2>
     <p>Affordable customized Cake for your Day!.</p>
 
-    <div class="row">
+    <div class="row m-auto">
       <div class="pricing-column col-lg-4 col-md-6">
         <div class="card">
           <div class="card-header">
@@ -196,7 +213,7 @@
 
   <footer class="white-section" id="footer">
     <div class="container-fluid">
-      <i class="social-icon fab fa-facebook-f"></i>
+      <a href="https://www.facebook.com/ryleskitchen"><i class="social-icon fab fa-facebook-f"></i></a>
       <i class="social-icon fab fa-twitter"></i>
       <i class="social-icon fab fa-instagram"></i>
       <i class="social-icon fas fa-envelope"></i>
