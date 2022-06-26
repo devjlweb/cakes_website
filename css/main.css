@@ -1,3 +1,9 @@
+/* Color reference
+color : #A3CFCD  ,  #82A0AA  ,  #677381  ,  #4B4A54  ,  #2A272A  ,  #000000
+
+
+*/
+
 body {
   font-family: "Montserrat";
   text-align: center;
@@ -10,7 +16,9 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat-Bold";
 }
-
+h3 {
+  color: #4B4A54;
+}
 
 .title p{
   font-size: 1.2rem;
@@ -42,7 +50,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
+  color: #FFE3F1;
 }
+.navbar-nav {
+  color: #FFE3F1;
+}
+
 
 .nav-item {
   padding: 0 18px;
@@ -56,12 +69,14 @@ h1, h2, h3, h4, h5, h6 {
 /* Buttons */
 .download-button {
   margin: 5% 3% 5% 0;
+  color :#FFE3F1;
 }
 
 /* Title Section */
 
 #title {
   text-align: left;
+  color: #FFE3F1;
 }
 
 #title .container-fluid {
@@ -73,6 +88,9 @@ h1, h2, h3, h4, h5, h6 {
 #features {
   position: relative;
 }
+#features p {
+  color: #677381;
+}
 
 .feature-title {
   font-size: 1.5rem;
@@ -83,12 +101,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .icon {
-  color: #706f6f;
+  color: #677381;
   margin-bottom: 1rem;
 }
 
 .icon:hover {
-  color: #271513;
+  color: #4B4A54
 }
 
 /* Testimonial Section */
@@ -118,7 +136,12 @@ h1, h2, h3, h4, h5, h6 {
 #pricing {
   padding: 100px;
 }
-
+#pricing  p{
+  color: #4B4A54;
+}
+#pricing h2 {
+  color: #2A272A;
+}
 .price-text {
   font-size: 3rem;
   line-height: 1.5;
