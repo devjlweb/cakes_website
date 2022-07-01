@@ -7,14 +7,12 @@ color : #A3CFCD  ,  #82A0AA  ,  #677381  ,  #4B4A54  ,  #2A272A  ,  #000000
 body {
   font-family: "Montserrat";
   text-align: center;
+  font-size: 18px;
 }
 
-#navLogo {
-  font-family: 'Montserrat Alternates', sans-serif;
-}
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat-Bold";
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 h3 {
   color: #4B4A54;
@@ -79,9 +77,6 @@ h3 {
   color: #FFE3F1;
 }
 
-#title .container-fluid {
-  padding: 3% 15% 7%;
-}
 
 /* Features Section */
 
@@ -94,6 +89,7 @@ h3 {
 
 .feature-title {
   font-size: 1.5rem;
+  font-family: "Stylish", sans-serif;
 }
 
 .feature-box {
@@ -101,7 +97,7 @@ h3 {
 }
 
 .icon {
-  color: #677381;
+  color: darkorange;
   margin-bottom: 1rem;
 }
 
@@ -112,7 +108,7 @@ h3 {
 /* Testimonial Section */
 
 .testimonial-text {
-  font-size: 2rem;
+  font-size: 1.3rem;
   line-height: 1.5;
 }
 

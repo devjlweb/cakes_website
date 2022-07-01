@@ -1,0 +1,2 @@
+product: slider
+https://codepen.io/SomnusHermeticus/pen/ARpgOO
