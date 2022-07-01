@@ -43,12 +43,10 @@ h3 {
 
 
 /* Navigation Bar */
-#navLogo {
-  font-family: 'Montserrat Alternates', sans-serif;
-}
+
 .navbar-brand {
-  font-family: "Ubuntu";
-  font-size: 2.5rem;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2rem;
   font-weight: bold;
   color: #FFE3F1;
 }
@@ -67,7 +65,10 @@ h3 {
 }
 
 /* Buttons */
-.download-button {
+.button-title {
+  color :#FFE3F1;
+}
+button {
   margin: 5% 3% 5% 0;
   color :#FFE3F1;
 }
@@ -132,7 +133,7 @@ h3 {
   /* Pricing Section */
 
 #pricing {
-  padding: 100px;
+
 }
 #pricing  p{
   color: #4B4A54;
