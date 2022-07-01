@@ -43,7 +43,9 @@ h3 {
 
 
 /* Navigation Bar */
-
+#navLogo {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
 .navbar-brand {
   font-family: "Ubuntu";
   font-size: 2.5rem;
@@ -97,12 +99,12 @@ h3 {
 }
 
 .icon {
-  color: darkorange;
+  color: #8f682b;
   margin-bottom: 1rem;
 }
 
 .icon:hover {
-  color: #4B4A54
+  color: darkorange;
 }
 
 /* Testimonial Section */
@@ -135,8 +137,6 @@ h3 {
 #pricing  p{
   color: #4B4A54;
 }
-#pricing h2 {
-  color: #2A272A;
 }
 .price-text {
   font-size: 3rem;
@@ -146,7 +146,9 @@ h3 {
 .pricing-column {
   padding: 3% 2%;
 }
-
+.card-body img {
+  padding-bottom: 15px;
+}
 /* CTA Section */
 
 
