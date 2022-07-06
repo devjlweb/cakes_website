@@ -37,7 +37,6 @@ class MyHeader extends HTMLElement {
 }
 
 customElements.define('my-header', MyHeader)
-
 ////////////////////////////////////////// footer
 
 class MyFooter extends HTMLElement {

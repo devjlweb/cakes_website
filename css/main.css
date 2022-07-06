@@ -132,13 +132,11 @@ button {
 
   /* Pricing Section */
 
-#pricing {
 
-}
 #pricing  p{
   color: #4B4A54;
 }
-}
+
 .price-text {
   font-size: 3rem;
   line-height: 1.5;
@@ -154,21 +152,4 @@ button {
 
 
 /* Footer Section */
-
-
-.social-icon {
-  margin: 20px 10px;
-}
-
-@media (max-width: 1028px) {
-
-  #title {
-    text-align: center;
-  }
-
-  .title-image {
-    position: static;
-    transform: rotate(0);
-  }
-}
 
