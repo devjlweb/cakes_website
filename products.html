@@ -7,9 +7,17 @@
   <title>Document</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/products.css">
+  <style>
+    body {
+      padding-top: 100px;
+    }
+    .colors {
+      display: none;
+    }
+  </style>
 </head>
 <body>
-  
+<my-header></my-header>  
 <div class="container">
     <div class="row">
       <div class="col-md-5">
@@ -25,6 +33,7 @@
                 <div class="input-group mt-3 ">
                   <span class="input-group-text" >Flavours</span>
                   <select id="numSelector" class="form-select" aria-label="Default select" aria-describedby="select">
+                    <option value="1">Choose</option>
                     <option value="red">Chocolate Indulgence</option>
                     <option value="yellow">Cappuccino Creme</option>
                     <option value="blue">Red Velvet</option>
@@ -72,11 +81,12 @@
       
   </div> <!-- container end -->
 
+  <my-footer></my-footer>
 
-
-  <script src="js/products.js"></script>
+  <script src="main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Knockout/3.5.1/knockout-latest.min.js"></script>
+  <script src="js/products.js"></script>
 </body>
 </html>
