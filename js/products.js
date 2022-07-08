@@ -1,11 +1,10 @@
-
 $(document).ready(function(){
   $('#numSelector').on('change', function() {
   
-    //If red is selected, show red, hide yellow and blue.
-    if ( this.value == 'red')
+    //If chocolateIndulgence is selected, show chocolateIndulgence, hide yellow and blue.
+    if ( this.value == 'chocolateIndulgence')
     {
-      $("#red").show();
+      $("#chocolateIndulgence").show();
       $("#yellow").hide();
       $("#blue").hide();
     }
@@ -13,7 +12,7 @@ $(document).ready(function(){
      //If yellow is selected, show yellow, hide red and blue.
     if ( this.value == 'yellow')
     {
-      $("#red").hide();
+      $("#chocolateIndulgence").hide();
       $("#yellow").show();
       $("#blue").hide();
     }
@@ -21,7 +20,7 @@ $(document).ready(function(){
     //If blue is selected, show blue hide red and yellow.
     if ( this.value == 'blue')
     {
-      $("#red").hide();
+      $("#chocolateIndulgence").hide();
       $("#yellow").hide();
       $("#blue").show();
     }
