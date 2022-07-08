@@ -1,0 +1,139 @@
+class MyProduct extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+    <section>
+
+    <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <nav>
+          <div class="nav nav-tabs" role="tablist">
+            <button type="button" id="tabButtons-1" class="nav-item nav-link active" data-bs-toggle="tab" data-bs-target="#tabButtons-pane-1" role="tab" aria-controls="tabButtons-pane-1" aria-selected="true">Cakes</button>
+            <button type="button" id="tabButtons-2" class="nav-item nav-link" data-bs-toggle="tab" data-bs-target="#tabButtons-pane-2" role="tab" aria-controls="tabButtons-pane-2" aria-selected="false">Cupcakes</button>
+            <button type="button" id="tabButtons-3" class="nav-item nav-link" data-bs-toggle="tab" data-bs-target="#tabButtons-pane-3" role="tab" aria-controls="tabButtons-pane-3" aria-selected="false">Brownies</button>
+          </div>
+        </nav>
+        <div class="tab-content">
+          <div id="tabButtons-pane-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabButtons-1">
+          
+           <!-- Product Form Start -->
+
+                <div class="input-group mt-3 ">
+                  <span class="input-group-text" >Flavours</span>
+                  <select id="numSelector" class="form-select" aria-label="Default select" name="product" aria-describedby="select" form="productForm">
+                    <option value="1">Choose</option>
+                    <option value="chocolateIndulgence">Chocolate Indulgence</option>
+                    <option value="yellow">Cappuccino Creme</option>
+                    <option value="blue">Red Velvet</option>
+                    <option value="4">Limoncello</option>
+                    <option value="5">Option five</option>
+                  </select>
+                </div>
+               <div class="row">
+                <div class="input-group-sm mt-3 col-md-6">
+                  <span class="input-group-text" id="select">Size</span>
+                  <select class="form-select" name="size" aria-label="Default select" aria-describedby="select" form="productForm">
+                    <option value="'7'">7" (6-8) Serving</option>
+                    <option value="'9'">9" (8-12) Serving</option>
+                    <option value="'10'">10" (12-16) Serving</option>
+                    <option value="'12x8'">12x8" (14-18) Serving</option>
+                    <option value="'12'">12" (16-20) Serving</option>
+                    <option value="'14'">14" (25-30) Serving</option>
+                  </select>
+                </div>
+                <div class="mt-3 input-group-sm col-md-3 offset-md-3">
+                  <input type="number" id="productQty" name="Qty"  class="form-control" form="productForm">
+                  <p class="float-end">Qty</p>
+                </div>  
+              </div>
+
+              <form action="mailto:devjlweb@gmail.com" id="productForm" method="post" enctype="text/plain">
+
+              <div class="row">
+              <div class="col-12 col-sm-6">
+                <div class="mb-3">
+                  <div class="input-group">
+                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                    <input type="text" id="name" class="form-control" name="name" placeholder="Name" required>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6">
+                <div class="mb-3">
+                  <div class="input-group">
+                    <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                    <input type="email" id="email" class="form-control" name="email" placeholder="example@email.com" required>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <div class="mb-3">
+                  <div class="input-group">
+                    <span class="input-group-text"><i class="fas fa-phone"></i></span>
+                    <input type="tel" id="telephone" class="form-control" name="telephone" placeholder="0123456789">
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6">
+                <div class="mb-3">
+                    <div class="form-file">
+                      <input type="file" class="form-file-input" id="validationDefaultFile">
+                    </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message:</label>
+              <div class="input-group">
+                <span class="input-group-text"><i class="fas fa-pencil-alt"></i></span>
+                <textarea id="message" class="form-control" name="message" rows="3" placeholder="Write your message here..."></textarea>
+              </div>
+            </div>
+             <button type="submit" class="btn btn-outline-dark">Submit</button>
+              </form> <!----------------- End of Form ----------------------->
+          </div>
+          <div id="tabButtons-pane-2" class="tab-pane" role="tabpanel" aria-labelledby="tabButtons-2">
+            <p>Panel 2</p>
+          </div>
+          <div id="tabButtons-pane-3" class="tab-pane" role="tabpanel" aria-labelledby="tabButtons-3">
+            <p>Panel 3</p>
+          </div>      
+      </div> <!-- col end -->
+    </div> <!-- row end -->
+    <div class="col-md-5 offset-md-2">
+      <div class=" colors" id="chocolateIndulgence">
+          <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card" style="width: 20rem;">
+          <img class="card-img-top" src="http://www.azspagirls.com/files/2010/09/orange.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Orange</h4>
+            <p class="card-text">Price: $0.5</p>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class=" colors" id="yellow">
+          <h3>Box Content2</h3>
+      </div>
+      <div class=" colors" id="blue">
+          <h3>Box Content3</h3>
+      </div>
+    </div>
+         
+  
+  </div>
+      
+      
+   </div>
+
+    </section>
+    `
+  }
+}
+
+customElements.define('my-product', MyProduct)
