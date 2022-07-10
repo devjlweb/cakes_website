@@ -12,6 +12,9 @@ Basic demo styles */
   height: 100px; */
 }
 
+.card-title {
+  justify-content: start;
+}
 .card-text {
   display: none;
 }

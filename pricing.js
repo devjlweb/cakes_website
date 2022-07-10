@@ -120,13 +120,13 @@ class MyProducts extends HTMLElement {
                 <div class="card" style="width: 20rem;">
                   <img class="card-img-top" src="http://www.azspagirls.com/files/2010/09/orange.jpg" alt="Card image cap">
                   <div class="card-block">
-                    <h4 class="card-title">Orange</h4>
-                    <p id="1size" class="card-text">Price: $0.5</p>
-                    <p id="2size" class="card-text">Price: $0.6</p>
-                    <p id="3size" class="card-text">Price: $0.7</p>
-                    <p id="4size" class="card-text">Price: $0.8</p>
-                    <p id="5size" class="card-text">Price: $0.9</p>
-                    <p id="6size" class="card-text">Price: $0.0</p>
+                    <h4 class="card-title">Chocolate Indulgence</h4>
+                    <p id="1size" class="card-text">Price: $50.00</p>
+                    <p id="2size" class="card-text">Price: $70.00</p>
+                    <p id="3size" class="card-text">Price: $90.00</p>
+                    <p id="4size" class="card-text">Price: $110.00</p>
+                    <p id="5size" class="card-text">Price: $115.00</p>
+                    <p id="6size" class="card-text">Price: $145.00</p>
                   </div>
                 </div>
               </div>
