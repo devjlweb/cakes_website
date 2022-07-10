@@ -99,5 +99,5 @@ class MyFooter extends HTMLElement {
 customElements.define('my-footer', MyFooter)
 
 
-
+////////////// products // pricing tab
 

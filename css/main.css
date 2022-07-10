@@ -10,7 +10,6 @@ body {
   font-size: 18px;
 }
 
-
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat Alternates', sans-serif;
 }
@@ -133,21 +132,6 @@ button {
   /* Pricing Section */
 
 
-#pricing  p{
-  color: #4B4A54;
-}
-
-.price-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-.pricing-column {
-  padding: 3% 2%;
-}
-.card-body img {
-  padding-bottom: 15px;
-}
 /* CTA Section */
 
 
