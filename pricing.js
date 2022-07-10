@@ -29,18 +29,25 @@ class MyProducts extends HTMLElement {
                     <option value="yemaCaramel">Yema Caramel</option>
                     <option value="chocoMochaCrunch">Choco Mocha Crunch</option>
                     <option value="blackForest">Black Forest</option>
+                    <option value="carrot">Carrot</option>
+                    <option value="purpleYam">Purple Yam</option>
+                    <option value="pandan">Pandan</option>
+                    <option value="rockyRoad">Rocky Road</option>
+                    <option value="strawberry">Strawberry</option>
+                    <option value="sansrival">Sansrival</option>
                   </select>
                 </div>
                <div class="row">
                 <div class="input-group-sm mt-3 col-md-6">
                   <span class="input-group-text" id="select">Size</span>
-                  <select class="form-select" name="size" aria-label="Default select" aria-describedby="select" form="productForm">
-                    <option value="'7'">7" (6-8) Serving</option>
-                    <option value="'9'">9" (8-12) Serving</option>
-                    <option value="'10'">10" (12-16) Serving</option>
-                    <option value="'12x8'">12x8" (14-18) Serving</option>
-                    <option value="'12'">12" (16-20) Serving</option>
-                    <option value="'14'">14" (25-30) Serving</option>
+                  <select id="priceSelector" class="form-select" name="size" aria-label="Default select" aria-describedby="select" form="productForm">
+                    <option value="0size">Choose</option>
+                    <option value="1size">7" (6-8) Serving</option>
+                    <option value="2size">9" (8-12) Serving</option>
+                    <option value="3size">10" (12-16) Serving</option>
+                    <option value="4size">12x8" (14-18) Serving</option>
+                    <option value="5size">12" (16-20) Serving</option>
+                    <option value="6size">14" (25-30) Serving</option>
                   </select>
                 </div>
                 <div class="mt-3 input-group-sm col-md-3 offset-md-3">
@@ -114,7 +121,12 @@ class MyProducts extends HTMLElement {
                   <img class="card-img-top" src="http://www.azspagirls.com/files/2010/09/orange.jpg" alt="Card image cap">
                   <div class="card-block">
                     <h4 class="card-title">Orange</h4>
-                    <p class="card-text">Price: $0.5</p>
+                    <p id="1size" class="card-text">Price: $0.5</p>
+                    <p id="2size" class="card-text">Price: $0.6</p>
+                    <p id="3size" class="card-text">Price: $0.7</p>
+                    <p id="4size" class="card-text">Price: $0.8</p>
+                    <p id="5size" class="card-text">Price: $0.9</p>
+                    <p id="6size" class="card-text">Price: $0.0</p>
                   </div>
                 </div>
               </div>

@@ -3,6 +3,7 @@ Basic demo styles */
 	padding-top: 100px;
 } */
 
+/* Pricing */
 .colors {
   display: none;
 /*   background-color: salmon;
@@ -11,7 +12,9 @@ Basic demo styles */
   height: 100px; */
 }
 
-
+.card-text {
+  display: none;
+}
 
 
 .show-cart li {
