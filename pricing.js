@@ -88,7 +88,7 @@ class MyProducts extends HTMLElement {
               <div class="col-12 col-sm-6">
                 <div class="mb-3">
                     <div class="form-file">
-                      <input type="file" class="form-file-input" id="validationDefaultFile">
+                      <input type="file" class="form-control" id="inputFile">
                     </div>
                   
                 </div>
