@@ -112,34 +112,273 @@ class MyProducts extends HTMLElement {
           </div>      
       </div> <!-- col end -->
     </div> <!-- row end -->
+
+    <!-- START OF PRODUCT CARD -->
+
     <div class="col-md-5 offset-md-2">
       <div class=" colors" id="chocolateIndulgence">
           <div class="container">
             <div class="row">
               <div class="col">
                 <div class="card" style="width: 20rem;">
-                  <img class="card-img-top" src="http://www.azspagirls.com/files/2010/09/orange.jpg" alt="Card image cap">
+                  <img class="card-img-top" src="images/cake-ci.png" alt="Card image cap">
                   <div class="card-block">
                     <h4 class="card-title">Chocolate Indulgence</h4>
-                    <p id="1size" class="card-text">Price: $50.00</p>
-                    <p id="2size" class="card-text">Price: $70.00</p>
-                    <p id="3size" class="card-text">Price: $90.00</p>
-                    <p id="4size" class="card-text">Price: $110.00</p>
-                    <p id="5size" class="card-text">Price: $115.00</p>
-                    <p id="6size" class="card-text">Price: $145.00</p>
+                    <p  class="card-text a1size">Price: $50.00 /pc</p>
+                    <p  class="card-text a2size">Price: $70.00 /pc</p>
+                    <p  class="card-text a3size">Price: $90.00 /pc</p>
+                    <p  class="card-text a4size">Price: $110.00 /pc</p>
+                    <p  class="card-text a5size">Price: $115.00 /pc</p>
+                    <p  class="card-text a6size">Price: $145.00 /pc</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>      
-      <div class=" colors" id="yellow">
-          <h3>Box Content2</h3>
+      <div class=" colors" id="cappuccinoCreme">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="images/cake-cc.png" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Cappuccino Creme</h4>
+                  <p  class="card-text a1size">Price: $50.00 /pc</p>
+                    <p  class="card-text a2size">Price: $70.00 /pc</p>
+                    <p  class="card-text a3size">Price: $90.00 /pc</p>
+                    <p  class="card-text a4size">Price: $110.00 /pc</p>
+                    <p  class="card-text a5size">Price: $115.00 /pc</p>
+                    <p  class="card-text a6size">Price: $145.00 /pc</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class=" colors" id="blue">
-          <h3>Box Content3</h3>
+      <div class=" colors" id="redVelvet">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="images/cake-rv.png" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Red Velvet</h4>
+                  <p  class="card-text a1size">Price: $50.00 /pc</p>
+                    <p  class="card-text a2size">Price: $70.00 /pc</p>
+                    <p  class="card-text a3size">Price: $90.00 /pc</p>
+                    <p  class="card-text a4size">Price: $110.00 /pc</p>
+                    <p  class="card-text a5size">Price: $115.00 /pc</p>
+                    <p  class="card-text a6size">Price: $145.00 /pc</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+      <div class=" colors" id="limoncello">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="images/cake-limoncello.png" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Limoncello</h4>
+                  <p  class="card-text a1size">Price: $50.00 /pc</p>
+                    <p  class="card-text a2size">Price: $70.00 /pc</p>
+                    <p  class="card-text a3size">Price: $90.00 /pc</p>
+                    <p  class="card-text a4size">Price: $110.00 /pc</p>
+                    <p  class="card-text a5size">Price: $115.00 /pc</p>
+                    <p  class="card-text a6size">Price: $145.00 /pc</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" colors" id="yemaCaramel">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="images/cake-yema.png" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Yema Caramel</h4>
+                  <p  class="card-text b1size">Price: $55.00 /pc</p>
+                  <p  class="card-text b2size">Price: $75.00 /pc</p>
+                  <p  class="card-text b3size">Price: $95.00 /pc</p>
+                  <p  class="card-text b4size">Price: $115.00 /pc</p>
+                  <p  class="card-text b5size">Price: $120.00 /pc</p>
+                  <p  class="card-text b6size">Price: $150.00 /pc</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" colors" id="chocoMochaCrunch">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="images/cake-cm.png" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Choco Mocha Crunch</h4>
+                  <p  class="card-text b1size">Price: $55.00 /pc</p>
+                  <p  class="card-text b2size">Price: $75.00 /pc</p>
+                  <p  class="card-text b3size">Price: $95.00 /pc</p>
+                  <p  class="card-text b4size">Price: $115.00 /pc</p>
+                  <p  class="card-text b5size">Price: $120.00 /pc</p>
+                  <p  class="card-text b6size">Price: $150.00 /pc</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" colors" id="blackForest">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="images/cake-bf.png" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Black Forest</h4>
+                  <p  class="card-text b1size">Price: $55.00 /pc</p>
+                  <p  class="card-text b2size">Price: $75.00 /pc</p>
+                  <p  class="card-text b3size">Price: $95.00 /pc</p>
+                  <p  class="card-text b4size">Price: $115.00 /pc</p>
+                  <p  class="card-text b5size">Price: $120.00 /pc</p>
+                  <p  class="card-text b6size">Price: $150.00 /pc</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" colors" id="carrot">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="images/cake-carrot.png" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Carrot</h4>
+                  <p  class="card-text b1size">Price: $55.00 /pc</p>
+                  <p  class="card-text b2size">Price: $75.00 /pc</p>
+                  <p  class="card-text b3size">Price: $95.00 /pc</p>
+                  <p  class="card-text b4size">Price: $115.00 /pc</p>
+                  <p  class="card-text b5size">Price: $120.00 /pc</p>
+                  <p  class="card-text b6size">Price: $150.00 /pc</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" colors" id="purpleYam">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="images/cake-py.png" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Purple Yam </h4>
+                  <p  class="card-text c1size">Price: $60.00 /pc</p>
+                  <p  class="card-text c2size">Price: $80.00 /pc</p>
+                  <p  class="card-text c3size">Price: $100.00 /pc</p>
+                  <p  class="card-text c4size">Price: $120.00 /pc</p>
+                  <p  class="card-text c5size">Price: $125.00 /pc</p>
+                  <p  class="card-text c6size">Price: $155.00 /pc</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" colors" id="pandan">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="images/cake-pandan.png" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Pandan </h4>
+                  <p  class="card-text c1size">Price: $60.00 /pc</p>
+                  <p  class="card-text c2size">Price: $80.00 /pc</p>
+                  <p  class="card-text c3size">Price: $100.00 /pc</p>
+                  <p  class="card-text c4size">Price: $120.00 /pc</p>
+                  <p  class="card-text c5size">Price: $125.00 /pc</p>
+                  <p  class="card-text c6size">Price: $155.00 /pc</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" colors" id="rockyRoad">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="images/cake-rr.png" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Rocky Road </h4>
+                  <p  class="card-text c1size">Price: $60.00 /pc</p>
+                  <p  class="card-text c2size">Price: $80.00 /pc</p>
+                  <p  class="card-text c3size">Price: $100.00 /pc</p>
+                  <p  class="card-text c4size">Price: $120.00 /pc</p>
+                  <p  class="card-text c5size">Price: $125.00 /pc</p>
+                  <p  class="card-text c6size">Price: $155.00 /pc</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" colors" id="strawberry">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="images/cake-strawberry.png" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Strawberry </h4>
+                  <p  class="card-text c1size">Price: $60.00 /pc</p>
+                  <p  class="card-text c2size">Price: $80.00 /pc</p>
+                  <p  class="card-text c3size">Price: $100.00 /pc</p>
+                  <p  class="card-text c4size">Price: $120.00 /pc</p>
+                  <p  class="card-text c5size">Price: $125.00 /pc</p>
+                  <p  class="card-text c6size">Price: $155.00 /pc</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" colors" id="sansrival">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="images/cake-sansrival.png" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Sansrival </h4>
+                  <p  class="card-text c1size">Price: $60.00 /pc</p>
+                  <p  class="card-text c2size">Price: $80.00 /pc</p>
+                  <p  class="card-text c3size">Price: $100.00 /pc</p>
+                  <p  class="card-text c4size">Price: $120.00 /pc</p>
+                  <p  class="card-text c5size">Price: $125.00 /pc</p>
+                  <p  class="card-text c6size">Price: $155.00 /pc</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+    </div> <!-- End of product card -->
          
   
   </div>
