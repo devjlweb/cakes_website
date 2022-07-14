@@ -5,7 +5,7 @@ class MyProducts extends HTMLElement {
 
   <div class="container">
     <div class="row">
-      <div class="col-md-5">
+      <div class="col-md-6">
         <nav>
           <div class="nav nav-tabs" role="tablist">
             <button type="button" id="tabButtons-1" class="nav-item nav-link active" data-bs-toggle="tab" data-bs-target="#tabButtons-pane-1" role="tab" aria-controls="tabButtons-pane-1" aria-selected="true">Cakes</button>
@@ -115,12 +115,12 @@ class MyProducts extends HTMLElement {
 
     <!-- START OF PRODUCT CARD -->
 
-    <div class="col-md-5 offset-md-2">
-      <div class=" colors" id="chocolateIndulgence">
-          <div class="container">
+    <div class="col-md-6">
+      <div class="colors" id="chocolateIndulgence">
+          
             <div class="row">
               <div class="col">
-                <div class="card" style="width: 20rem;">
+                <div class="card position-relative top-50 start-50 translate-middle" style="width: 20rem;">
                   <img class="card-img-top" src="images/cake-ci.png" alt="Card image cap">
                   <div class="card-block">
                     <h4 class="card-title">Chocolate Indulgence</h4>
