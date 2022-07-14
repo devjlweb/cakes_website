@@ -3,7 +3,7 @@ $(document).ready(function(){
     
 
     //If red is selected, show red, hide yellow and blue.
-    if ( this.value == '1size')
+    if ( this.value == 'size-7')
     {
       $(".a1size").show();
       $(".a2size").hide();
@@ -14,7 +14,7 @@ $(document).ready(function(){
     }
     
      //If yellow is selected, show yellow, hide red and blue.
-    if ( this.value == '2size')
+    if ( this.value == 'size-9')
     {
       $(".a1size").hide();
       $(".a2size").show();
@@ -25,7 +25,7 @@ $(document).ready(function(){
     }
     
     //If blue is selected, show blue hide red and yellow.
-    if ( this.value == '3size')
+    if ( this.value == 'size-10')
     {
       $(".a1size").hide();
       $(".a2size").hide();
@@ -36,7 +36,7 @@ $(document).ready(function(){
     }
     
     //If red is selected, show red, hide yellow and blue.
-    if ( this.value == '4size')
+    if ( this.value == 'size-12x8')
     {
       $(".a1size").hide();
       $(".a2size").hide();
@@ -47,7 +47,7 @@ $(document).ready(function(){
     }
 
     //If red is selected, show red, hide yellow and blue.
-    if ( this.value == '5size')
+    if ( this.value == 'size-12')
     {
       $(".a1size").hide();
       $(".a2size").hide();
@@ -58,7 +58,7 @@ $(document).ready(function(){
     }
 
     //If red is selected, show red, hide yellow and blue.
-    if ( this.value == '6size')
+    if ( this.value == 'size-14')
     {
       $(".a1size").hide();
       $(".a2size").hide();
@@ -79,7 +79,7 @@ $(document).ready(function(){
     
 
     //If red is selected, show red, hide yellow and blue.
-    if ( this.value == '1size')
+    if ( this.value == 'size-7')
     {
       $(".b1size").show();
       $(".b2size").hide();
@@ -90,7 +90,7 @@ $(document).ready(function(){
     }
     
      //If yellow is selected, show yellow, hide red and blue.
-    if ( this.value == '2size')
+    if ( this.value == 'size-9')
     {
       $(".b1size").hide();
       $(".b2size").show();
@@ -101,7 +101,7 @@ $(document).ready(function(){
     }
     
     //If blue is selected, show blue hide red and yellow.
-    if ( this.value == '3size')
+    if ( this.value == 'size-10')
     {
       $(".b1size").hide();
       $(".b2size").hide();
@@ -112,7 +112,7 @@ $(document).ready(function(){
     }
     
     //If red is selected, show red, hide yellow and blue.
-    if ( this.value == '4size')
+    if ( this.value == 'size-12x8')
     {
       $(".b1size").hide();
       $(".b2size").hide();
@@ -123,7 +123,7 @@ $(document).ready(function(){
     }
 
     //If red is selected, show red, hide yellow and blue.
-    if ( this.value == '5size')
+    if ( this.value == 'size-12')
     {
       $(".b1size").hide();
       $(".b2size").hide();
@@ -134,7 +134,7 @@ $(document).ready(function(){
     }
 
     //If red is selected, show red, hide yellow and blue.
-    if ( this.value == '6size')
+    if ( this.value == 'size-14')
     {
       $(".b1size").hide();
       $(".b2size").hide();
@@ -157,7 +157,7 @@ $(document).ready(function(){
     
 
     //If red is selected, show red, hide yellow and blue.
-    if ( this.value == '1size')
+    if ( this.value == 'size-7')
     {
       $(".c1size").show();
       $(".c2size").hide();
@@ -168,7 +168,7 @@ $(document).ready(function(){
     }
     
      //If yellow is selected, show yellow, hide red and blue.
-    if ( this.value == '2size')
+    if ( this.value == 'size-9')
     {
       $(".c1size").hide();
       $(".c2size").show();
@@ -179,7 +179,7 @@ $(document).ready(function(){
     }
     
     //If blue is selected, show blue hide red and yellow.
-    if ( this.value == '3size')
+    if ( this.value == 'size-10')
     {
       $(".c1size").hide();
       $(".c2size").hide();
@@ -190,7 +190,7 @@ $(document).ready(function(){
     }
     
     //If red is selected, show red, hide yellow and blue.
-    if ( this.value == '4size')
+    if ( this.value == 'size-12x8')
     {
       $(".c1size").hide();
       $(".c2size").hide();
@@ -201,7 +201,7 @@ $(document).ready(function(){
     }
 
     //If red is selected, show red, hide yellow and blue.
-    if ( this.value == '5size')
+    if ( this.value == 'size-12')
     {
       $(".c1size").hide();
       $(".c2size").hide();
@@ -212,7 +212,7 @@ $(document).ready(function(){
     }
 
     //If red is selected, show red, hide yellow and blue.
-    if ( this.value == '6size')
+    if ( this.value == 'size-14')
     {
       $(".c1size").hide();
       $(".c2size").hide();
@@ -221,6 +221,85 @@ $(document).ready(function(){
       $(".c5size").hide();
       $(".c6size").show();
     }
+
+  });
+});
+
+//////////////////////
+////////////////////////
+///////////////////////// Cupcake Price Selector
+
+
+$(document).ready(function(){
+  $('#priceSelector').on('change', function() {
+
+
+    //If red is selected, show red, hide yellow and blue.
+    if ( this.value == 'creamVanilla')
+    {
+      $("#b-vanilla").show();
+      $("#b-whiteChocolate").hide();
+      $("#b-milkChocolate").hide();
+      $("#b-saltedCaramel").hide();
+      $("#b-oreo").hide();
+      $("#b-lemon").hide();
+    }
+
+    //If red is selected, show red, hide yellow and blue.
+    if ( this.value == 'creamWhiteChocolate')
+    {
+      $("#b-vanilla").hide();
+      $("#b-whiteChocolate").show();
+      $("#b-milkChocolate").hide();
+      $("#b-saltedCaramel").hide();
+      $("#b-oreo").hide();
+      $("#b-lemon").hide();
+    }
+
+    //If red is selected, show red, hide yellow and blue.
+    if ( this.value == 'creamMilkChocolate')
+    {
+      $("#b-vanilla").hide();
+      $("#b-whiteChocolate").hide();
+      $("#b-milkChocolate").show();
+      $("#b-saltedCaramel").hide();
+      $("#b-oreo").hide();
+      $("#b-lemon").hide();
+    }
+
+    //If red is selected, show red, hide yellow and blue.
+    if ( this.value == 'creamSaltedCaramel')
+    {
+      $("#b-vanilla").hide();
+      $("#b-whiteChocolate").hide();
+      $("#b-milkChocolate").hide();
+      $("#b-saltedCaramel").show();
+      $("#b-oreo").hide();
+      $("#b-lemon").hide();
+    }
+
+    //If red is selected, show red, hide yellow and blue.
+    if ( this.value == 'creamOreo')
+    {
+      $("#b-vanilla").hide();
+      $("#b-whiteChocolate").hide();
+      $("#b-milkChocolate").hide();
+      $("#b-saltedCaramel").hide();
+      $("#b-oreo").show();
+      $("#b-lemon").hide();
+    }
+
+    //If red is selected, show red, hide yellow and blue.
+    if ( this.value == 'creamLemon')
+    {
+      $("#b-vanilla").hide();
+      $("#b-whiteChocolate").hide();
+      $("#b-milkChocolate").hide();
+      $("#b-saltedCaramel").hide();
+      $("#b-oreo").hide();
+      $("#b-lemon").show();
+    }
+
 
   });
 });
