@@ -78,7 +78,7 @@ class MyFooter extends HTMLElement {
             Fasa Ave.<br>
             Martinar, Nadi<br>
             <i class="fas fa-fw fa-phone"></i> <a href="tel:+6799033297">(679) 903-3297</a><br>
-            <i class="fas fa-fw fa-envelope disabled"></i> <a href="mailto:info@domain.com">info@domain.com</a>
+            <i class="fas fa-fw fa-envelope disabled"></i> <a href="mailto:joankristel_anorlim@yahoo.com.ph">joankristel_anorlim@yahoo.com.ph</a>
           </address>
         </div>
       </div>
