@@ -571,7 +571,7 @@ class MyPricing extends HTMLElement {
           <div class=" colors" id="vanilla">
             <div class="row justify-content-center">
               <div class="card" style="width: 20rem;">
-                <img class="card-img-top" src="images/cake-sansrival.png" alt="Card image cap">
+                <img class="card-img-top" src="images/cc-vanilla.png" alt="Card image cap">
                 <div class="card-block">
                   <h4 class="card-title">Base Flavour: Vanilla </h4>
                   <p  class="card-text c-vanilla">Buttercream: Vanilla</p>
@@ -588,7 +588,7 @@ class MyPricing extends HTMLElement {
           <div class=" colors" id="chocolateFudge">
             <div class="row justify-content-center">
               <div class="card" style="width: 20rem;">
-                <img class="card-img-top" src="images/cake-sansrival.png" alt="Card image cap">
+                <img class="card-img-top" src="images/cc-cFudge.png" alt="Card image cap">
                 <div class="card-block">
                   <h4 class="card-title">Base Flavour: Chocolate Fudge </h4>
                   <p  class="card-text c-vanilla">Buttercream: Vanilla</p>
@@ -605,7 +605,7 @@ class MyPricing extends HTMLElement {
           <div class=" colors" id="lemon">
             <div class="row justify-content-center">
               <div class="card" style="width: 20rem;">
-                <img class="card-img-top" src="images/cake-sansrival.png" alt="Card image cap">
+                <img class="card-img-top" src="images/cc-lemon.png" alt="Card image cap">
                 <div class="card-block">
                   <h4 class="card-title">Base Flavour: Lemon </h4>
                   <p  class="card-text c-vanilla">Buttercream: Vanilla</p>
@@ -619,10 +619,10 @@ class MyPricing extends HTMLElement {
             </div>
           </div>
 
-          <div class=" colors" id="carrot">
+          <div class=" colors" id="ccarrot">
             <div class="row justify-content-center">
               <div class="card" style="width: 20rem;">
-                <img class="card-img-top" src="images/cake-sansrival.png" alt="Card image cap">
+                <img class="card-img-top" src="images/cc-carrot.png" alt="Card image cap">
                 <div class="card-block">
                   <h4 class="card-title">Base Flavour: Carrot </h4>
                   <p  class="card-text c-vanilla">Buttercream: Vanilla</p>
@@ -639,7 +639,7 @@ class MyPricing extends HTMLElement {
           <div class=" colors" id="cookiesAndCream">
             <div class="row justify-content-center">
               <div class="card" style="width: 20rem;">
-                <img class="card-img-top" src="images/cake-sansrival.png" alt="Card image cap">
+                <img class="card-img-top" src="images/cc-cCream.png" alt="Card image cap">
                 <div class="card-block">
                   <h4 class="card-title">Base Flavour: Cookies and Cream </h4>
                   <p  class="card-text c-vanilla">Buttercream: Vanilla</p>
@@ -656,7 +656,7 @@ class MyPricing extends HTMLElement {
           <div class=" colors" id="coffee">
             <div class="row justify-content-center">
               <div class="card" style="width: 20rem;">
-                <img class="card-img-top" src="images/cake-sansrival.png" alt="Card image cap">
+                <img class="card-img-top" src="images/cc-coffee.png" alt="Card image cap">
                 <div class="card-block">
                   <h4 class="card-title">Base Flavour: Coffee </h4>
                   <p  class="card-text c-vanilla">Buttercream: Vanilla</p>

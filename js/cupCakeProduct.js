@@ -8,7 +8,7 @@ $(document).ready(function(){
       $("#vanilla").show();
       $("#chocolateFudge").hide();
       $("#lemon").hide();
-      $("#carrot").hide();
+      $("#ccarrot").hide();
       $("#cookiesAndCream").hide();
       $("#coffee").hide();
     }
@@ -19,7 +19,7 @@ $(document).ready(function(){
       $("#vanilla").hide();
       $("#chocolateFudge").show();
       $("#lemon").hide();
-      $("#carrot").hide();
+      $("#ccarrot").hide();
       $("#cookiesAndCream").hide();
       $("#coffee").hide();
     }
@@ -30,18 +30,18 @@ $(document).ready(function(){
       $("#vanilla").hide();
       $("#chocolateFudge").hide();
       $("#lemon").show();
-      $("#carrot").hide();
+      $("#ccarrot").hide();
       $("#cookiesAndCream").hide();
       $("#coffee").hide();
     }
 
-    //If carrot is selected, show carrot, hide others.
+    //If ccarrot is selected, show ccarrot, hide others.
     if ( this.value == 'carrot')
     {
       $("#vanilla").hide();
       $("#chocolateFudge").hide();
       $("#lemon").hide();
-      $("#carrot").show();
+      $("#ccarrot").show();
       $("#cookiesAndCream").hide();
       $("#coffee").hide();
     }
@@ -52,7 +52,7 @@ $(document).ready(function(){
       $("#vanilla").hide();
       $("#chocolateFudge").hide();
       $("#lemon").hide();
-      $("#carrot").hide();
+      $("#ccarrot").hide();
       $("#cookiesAndCream").show();
       $("#coffee").hide();
     }
@@ -63,7 +63,7 @@ $(document).ready(function(){
       $("#vanilla").hide();
       $("#chocolateFudge").hide();
       $("#lemon").hide();
-      $("#carrot").hide();
+      $("#ccarrot").hide();
       $("#cookiesAndCream").hide();
       $("#coffee").show();
     }
