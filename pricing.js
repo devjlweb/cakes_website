@@ -56,7 +56,11 @@ class MyPricing extends HTMLElement {
                   <option value="size-14">14" (25-30) Serving</option>
                 </select>
               </div>
-              <div class="mt-3 input-group-sm col-md-3 offset-md-3">
+              <div class="mt-3 input-group-sm col-md-4">
+                  <input type="datetime-local" id="datetime" name="datetime"  class="form-control" form="browniesForm">
+                  <p class="float-end">Date Needed</p>
+              </div>
+              <div class="mt-3 input-group-sm col-md-2">
                   <input type="number" id="productQty" name="Qty"  class="form-control" form="cakeForm">
                   <p class="float-end">Qty</p>
               </div>  
@@ -114,7 +118,7 @@ class MyPricing extends HTMLElement {
                   <label for="message" class="form-label">Message:</label>
                   <div class="input-group">
                     <span class="input-group-text"><i class="fas fa-pencil-alt"></i></span>
-                    <textarea id="message" class="form-control" name="message" rows="3" placeholder="Write your message here..."></textarea>
+                    <textarea id="message" class="form-control" name="message" rows="3" placeholder="Please attach a pic if you have your own design.&#10;Let us know if you'd like a birthday topper ordered."></textarea>
                   </div>
                 </div>
       <!-- Submit button form -->
@@ -158,7 +162,11 @@ class MyPricing extends HTMLElement {
                     <option value="creamLemon">Lemon</option>
                   </select>
                 </div>
-                <div class="mt-3 input-group-sm col-md-2 offset-md-4">
+                <div class="mt-3 input-group-sm col-md-4">
+                  <input type="datetime-local" id="datetime" name="datetime"  class="form-control" form="browniesForm">
+                  <p class="float-end">Date Needed</p>
+                </div>
+                <div class="mt-3 input-group-sm col-md-2">
                   <input type="number" id="productQty" name="Qty"  class="form-control min="6" max="" step="6"" form="cupCakeForm">
                   <p class="float-end">Qty</p>
                 </div>  
@@ -262,7 +270,7 @@ class MyPricing extends HTMLElement {
                 </div>
                 <div class="mt-3 input-group-sm col-md-4">
                   <input type="datetime-local" id="datetime" name="datetime"  class="form-control" form="browniesForm">
-                  <p class="float-end">Date & Time</p>
+                  <p class="float-end">Date Needed</p>
                 </div>                
             </div>
     
@@ -344,7 +352,7 @@ class MyPricing extends HTMLElement {
         <div class="col-md-6 mt-md-5">
           <div class="colors" id="chocolateIndulgence">
             <div class="row justify-content-center">      
-              <div class="card" style="width: 20rem;">
+              <div class="card" style="width: 25rem;">
                 <img class="card-img-top" src="images/cake-ci.png" alt="Card image cap">
                 <div class="card-block">
                   <h4 class="card-title">Chocolate Indulgence</h4>
@@ -676,9 +684,89 @@ class MyPricing extends HTMLElement {
           <div class=" colors" id="classic">
             <div class="row justify-content-center">
               <div class="card" style="width: 20rem;">
-                <img class="card-img-top" src="images/cake-sansrival.png" alt="Card image cap">
+                <img class="card-img-top" src="images/b-classic.png" alt="Card image cap">
                 <div class="card-block">
                   <h4 class="card-title">Flavour: Classic </h4>
+                  <p  class="card-text brownies-package1">Price: $16.00</p>
+                  <p  class="card-text brownies-package2">Price: $20.00</p>
+                  <p  class="card-text brownies-package3">Price: $30.00</p>
+                  <p  class="card-text brownies-package4">Price: $35.00</p>
+                  <p  class="card-text brownies-saver">Price: $28.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class=" colors" id="crunchie">
+            <div class="row justify-content-center">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="images/b-crunchie.png" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Flavour: Crunchie </h4>
+                  <p  class="card-text brownies-package1">Price: $16.00</p>
+                  <p  class="card-text brownies-package2">Price: $20.00</p>
+                  <p  class="card-text brownies-package3">Price: $30.00</p>
+                  <p  class="card-text brownies-package4">Price: $35.00</p>
+                  <p  class="card-text brownies-saver">Price: $28.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class=" colors" id="twix">
+            <div class="row justify-content-center">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="images/b-twix.png" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Flavour: Twix </h4>
+                  <p  class="card-text brownies-package1">Price: $16.00</p>
+                  <p  class="card-text brownies-package2">Price: $20.00</p>
+                  <p  class="card-text brownies-package3">Price: $30.00</p>
+                  <p  class="card-text brownies-package4">Price: $35.00</p>
+                  <p  class="card-text brownies-saver">Price: $28.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class=" colors" id="cookiesAndCream">
+            <div class="row justify-content-center">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="images/b-cCream.png" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Flavour: Cookies and Cream </h4>
+                  <p  class="card-text brownies-package1">Price: $16.00</p>
+                  <p  class="card-text brownies-package2">Price: $20.00</p>
+                  <p  class="card-text brownies-package3">Price: $30.00</p>
+                  <p  class="card-text brownies-package4">Price: $35.00</p>
+                  <p  class="card-text brownies-saver">Price: $28.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class=" colors" id="tripleChocolate">
+            <div class="row justify-content-center">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="images/b-tChocolate.png" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Flavour: Triple Chocolate</h4>
+                  <p  class="card-text brownies-package1">Price: $16.00</p>
+                  <p  class="card-text brownies-package2">Price: $20.00</p>
+                  <p  class="card-text brownies-package3">Price: $30.00</p>
+                  <p  class="card-text brownies-package4">Price: $35.00</p>
+                  <p  class="card-text brownies-saver">Price: $28.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class=" colors" id="snickers">
+            <div class="row justify-content-center">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="images/b-snickers.png" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Flavour: Snickers</h4>
                   <p  class="card-text brownies-package1">Price: $16.00</p>
                   <p  class="card-text brownies-package2">Price: $20.00</p>
                   <p  class="card-text brownies-package3">Price: $30.00</p>
