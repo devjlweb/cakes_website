@@ -235,7 +235,96 @@ class MyPricing extends HTMLElement {
 
 
             <div id="tabButtons-pane-3" class="tab-pane" role="tabpanel" aria-labelledby="tabButtons-3">
-              <p>Panel 3</p>
+              
+              <div class="input-group mt-3 ">
+                <span class="input-group-text" >Flavours</span>
+                <select id="browniesSelector" class="form-select" aria-label="Default select" name="flavour" aria-describedby="select" form="browniesForm">
+                  <option value="1">Choose</option>
+                  <option value="classic">Classic</option>
+                  <option value="crunchie">Crunchie</option>
+                  <option value="twix">Twix</option>
+                  <option value="cookiesAndCream">Cookies & Cream</option>
+                  <option value="tripleChocolate">Triple Chocolate</option>
+                  <option value="snickers">Snickers</option>
+                </select>
+              </div>
+              <div class="row">
+                <div class="input-group-sm mt-3 col-md-8">
+                  <span class="input-group-text" id="select">Packages Price</span>
+                  <select id="browniesPackageSelector" class="form-select" name="package" aria-label="Default select" aria-describedby="select" form="browniesForm">
+                    <option value="0size">Choose</option>
+                    <option value="browniesPackage1">6pcs (1 flavour)</option>
+                    <option value="browniesPackage2">6pcs (2 flavours)</option>
+                    <option value="browniesPackage3">12pcs (1 flavour)</option>
+                    <option value="browniesPackage4">12pcs (2 flavours)</option>
+                    <option value="browniesSaver">12 x Classic Brownies (Choose a white, milk or dark Drizzle)</option>
+                  </select>
+                </div>
+                <div class="mt-3 input-group-sm col-md-4">
+                  <input type="datetime-local" id="datetime" name="datetime"  class="form-control" form="browniesForm">
+                  <p class="float-end">Date & Time</p>
+                </div>                
+            </div>
+    
+    <!----------------------- Brownies Form Action here -------------------------->
+
+            <form action="mailto:devjlweb@gmail.com" id="browniesForm" method="post" enctype="text/plain">
+    <!-- Name and Email row -->
+              <div class="row">
+    <!-- Name Form -->
+                <div class="col-12 col-sm-6">
+                  <div class="mb-3">
+                    <div class="input-group">
+                      <span class="input-group-text"><i class="fas fa-user"></i></span>
+                      <input type="text" id="name" class="form-control" name="name" placeholder="Name" required>
+                    </div>
+                  </div>
+                </div>
+    <!-- Email Form -->
+                <div class="col-12 col-sm-6">
+                  <div class="mb-3">
+                    <div class="input-group">
+                      <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                      <input type="email" id="email" class="form-control" name="email" placeholder="example@email.com" required>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    <!-- End of Name and Email row -->
+
+    <!-- Telephone and Attach file row -->
+              <div class="row">
+    <!-- Telephone form -->
+                <div class="col-12 col-sm-6">
+                  <div class="mb-3">
+                    <div class="input-group">
+                      <span class="input-group-text"><i class="fas fa-phone"></i></span>
+                      <input type="tel" id="telephone" class="form-control" name="telephone" placeholder="0123456789">
+                    </div>
+                  </div>
+                </div>
+    <!-- Attach file form -->
+                <div class="col-12 col-sm-6">
+                  <div class="mb-3">
+                    <div class="form-file">
+                      <input type="file" class="form-control" id="inputFile">
+                    </div>
+                  </div>
+                </div>
+              </div>
+    <!-- End of Telephone and Attach file row -->
+    <!-- Message Form -->
+              <div class="mb-3">
+                <label for="message" class="form-label">Message:</label>
+                <div class="input-group">
+                  <span class="input-group-text"><i class="fas fa-pencil-alt"></i></span>
+                  <textarea id="message" class="form-control" name="message" rows="3" placeholder="Write your message here..."></textarea>
+                </div>
+              </div>
+    <!-- Submit button form -->
+              <button type="submit" class="btn btn-outline-dark">Submit</button>
+            </form>
+            
             </div>
   <!-- tabButtons-pane-3 END -->
 
@@ -576,6 +665,25 @@ class MyPricing extends HTMLElement {
                   <p  class="card-text c-saltedCaramel">Buttercream: Salted Caramel</p>
                   <p  class="card-text c-oreo">Buttercream: Oreo</p>
                   <p  class="card-text c-lemon">Buttercream: Lemon</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!---------------------------- BROWNIES CARDS ----------------------------->
+
+
+          <div class=" colors" id="classic">
+            <div class="row justify-content-center">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="images/cake-sansrival.png" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Flavour: Classic </h4>
+                  <p  class="card-text brownies-package1">Price: $16.00</p>
+                  <p  class="card-text brownies-package2">Price: $20.00</p>
+                  <p  class="card-text brownies-package3">Price: $30.00</p>
+                  <p  class="card-text brownies-package4">Price: $35.00</p>
+                  <p  class="card-text brownies-saver">Price: $28.00</p>
                 </div>
               </div>
             </div>
