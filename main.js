@@ -15,13 +15,10 @@ class MyHeader extends HTMLElement {
               <a href="index.html" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a href="products.html" class="nav-link">Products</a>
-            </li>
-            <li class="nav-item">
               <a href="#" class="nav-link">Blog</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Testimonials</a>
+              <a href="#pricing" class="nav-link">Testimonials</a>
             </li>
             <li class="nav-item active">
               <a href="contact.html" class="nav-link active" aria-current="page">Contact</a>
