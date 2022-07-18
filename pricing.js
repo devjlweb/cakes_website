@@ -68,7 +68,7 @@ class MyPricing extends HTMLElement {
      
       <!-------------------------- Cake Form Action here -------------------------->
 
-              <form action="mailto:joankristel_anorlim@yahoo.com.ph" id="cakeForm" method="post" enctype="text/plain">
+              <form action="mailto:joankristel_anorlim@yahoo.com.ph" id="cakeForm" method="get" enctype="text/plain">
       <!-- Name and Email row -->
                 <div class="row">
       <!-- Name Form -->
@@ -174,7 +174,7 @@ class MyPricing extends HTMLElement {
       
        <!----------------------- Cupcakes Form Action here -------------------------->
  
-              <form action="mailto:joankristel_anorlim@yahoo.com.ph" id="cupCakeForm" method="post" enctype="text/plain">
+              <form action="mailto:joankristel_anorlim@yahoo.com.ph" id="cupCakeForm" method="get" enctype="text/plain">
        <!-- Name and Email row -->
                 <div class="row">
        <!-- Name Form -->
@@ -276,7 +276,7 @@ class MyPricing extends HTMLElement {
     
     <!----------------------- Brownies Form Action here -------------------------->
 
-            <form action="mailto:joankristel_anorlim@yahoo.com.ph" id="browniesForm" method="post" enctype="text/plain">
+            <form action="mailto:joankristel_anorlim@yahoo.com.ph" id="browniesForm" method="get" enctype="text/plain">
     <!-- Name and Email row -->
               <div class="row">
     <!-- Name Form -->
