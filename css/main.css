@@ -1,7 +1,6 @@
+
 /* Color reference
 color : #A3CFCD  ,  #82A0AA  ,  #677381  ,  #4B4A54  ,  #2A272A  ,  #000000
-
-
 */
 
 body {
@@ -20,6 +19,8 @@ h3 {
 .title p{
   font-size: 1.2rem;
 }
+/* Header */
+
 
 /* Headings */
 
@@ -130,7 +131,9 @@ button {
   }
 
   /* Pricing Section */
-
+  .colors {
+    display: none;
+  }
 
 /* CTA Section */
 
