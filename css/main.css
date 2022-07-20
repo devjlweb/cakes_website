@@ -19,8 +19,31 @@ h3 {
 .title p{
   font-size: 1.2rem;
 }
-/* Header */
+/* Header and Nav*/
+.header-nav {
+  background-color: #424549;
+  
+}
 
+.navbar-brand {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #FFE3F1;
+}
+.navbar-nav {
+  color: #FFE3F1;
+}
+
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
 
 /* Headings */
 
@@ -42,27 +65,7 @@ h3 {
 }
 
 
-/* Navigation Bar */
 
-.navbar-brand {
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-size: 2rem;
-  font-weight: bold;
-  color: #FFE3F1;
-}
-.navbar-nav {
-  color: #FFE3F1;
-}
-
-
-.nav-item {
-  padding: 0 18px;
-}
-
-.nav-link {
-  font-size: 1.2rem;
-  font-family: "Montserrat-Light";
-}
 
 /* Buttons */
 .button-title {
@@ -135,7 +138,143 @@ button {
     display: none;
   }
 
-/* CTA Section */
+/*                       Blog Section                     */
 
+.page h4 {
+  color: #999;
+  font-weight: bold;
+  text-transform: uppercase;
+  }
 
-/* Footer Section */
+  /* COLUMN STYLES */
+
+.col-two {
+display: flex;
+}
+.col-two .col-aside {
+flex: 0 0 20em;
+order: 1;
+}
+.col-two .col-content {
+flex: 1;
+}
+
+  /* PAGE STYLES */
+.page {
+  margin: 10vh auto 15vh;
+  max-width: 980px;
+  width: 85vw;
+  }
+  .page h1 {
+  font-size: 3em;
+  margin-bottom: 1em;
+  text-align: center;
+  }
+  .page h2 {
+  margin-bottom: 0.5em;
+  }
+  .page h4 {
+  margin-bottom: 1em;
+  }
+
+  /* BLOG STYLES */
+  .blog-recent {
+  text-align: right;
+  }
+  .blog-title-list {
+  list-style: none;
+  padding: 0;
+  }
+  .blog-title-list li ~ li {
+  margin-top: 1.5em;
+  }
+  .blog-title-list span {
+  color: #999;
+  display: block;
+  font-size: 0.8em;
+  font-style: italic;
+  margin-top: 0.5em;
+  }
+  .blog-posts ~ .blog-posts {
+  border-top: 1px dotted rgba(0, 0, 0, 0.1);
+  margin-top: 4em;
+  padding-top: 4em;
+  }
+  .blog-posts .post-header {
+  font-size: 0.8rem;
+  }
+  .col h2 {
+    font-size: 1.5rem;
+  }
+  .blog-posts p {
+    text-align: left;
+  }
+  .post-header {
+  margin-bottom: 1.5em;
+  text-align: left;
+  }
+  .post-header img,
+  .post-header .social-link {
+  margin-right: 0.5em;
+  }
+  .post-header img {
+  border-radius: 99px;
+  display: inline-block;
+  height: 2.5em;
+  vertical-align: middle;
+  }
+  .posts-image {
+  background-position: center;
+  background-size: cover;
+  height: 6em;
+  margin-bottom: 1.5em;
+  }
+  
+/* Post Html */
+
+.post {
+  text-align: left;
+}
+.post {
+  width: 100%;
+}
+.post-content,
+.post-footer {
+  margin: auto;
+  max-width: 40em;
+  width: 85vw;
+}
+.pull-left {
+  float: left;
+  margin: 0 2em 2em -2%;
+}
+.pull-right {
+  float: right;
+  margin: 2em -2% 2em 2em;
+}
+.post-aside {
+  background-color: rgba(0,0,0,0.01);
+  float: right;
+  margin: 0 0 2em 2em;
+  padding: 2em;
+}
+.post .post-header {
+  margin-bottom: 2.5em;
+  text-align: center;
+}
+.post-content {
+  font-size: 1.1rem;
+}
+.post-footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  font-style: italic;
+  font-size: 0.8em;
+  margin-top: 3em;
+  padding-top: 2em;
+}
+/* HERO STYLES */
+.half-hero {
+  background-position: center center;
+  background-size: cover;
+  height: 40vh;
+}

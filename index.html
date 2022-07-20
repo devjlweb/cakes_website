@@ -1,3 +1,74 @@
 ---
 layout: default
 ---
+
+<section class="bg-dark bg-gradient hero" id="title">
+<!-- Hero Title-->
+    {% include heroTitle.html %}
+</section>
+
+<!-- Features -->
+
+  <section class="white-section" id="features">
+    <div class="container ">
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-birthday-cake fa-4x"></i>
+          <h3 class="feature-title">Premium Ingredients</h3>
+          <p>Our cakes use the highest quality ingredients which are sourced internationally and freshly. This will increase the longevity of your purchase.</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-truck fa-4x"></i>
+          <h3 class="feature-title">Delivery on time</h3>
+          <p>We make sure you receive your order on time. We also provide free returns if there is any defect or damage to the product.</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="icon far fa-thumbs-up fa-4x"></i>
+          <h3 class="feature-title">Do It Yourself</h3>
+          <p>You can choose your preferred flavour and decide on the ingredients to be put in the cake. Simply put "DIY" under remarks in your order!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+
+  <section class="colored-section bg-dark bg-gradient text-light" id="testimonials">
+    
+      <div class="carousel-inner">
+      <!-- 1st Carousel Item -->
+        <div class=" active container-fluid">
+          <h1>
+            <a href="{{ site.posts.first.url }}"> {{ site.posts.first.title }}</a>
+          </h1>
+          <h2 class="testimonial-text">{{ site.posts.first.excerpt }}</h2>
+          <img class="testimonial-image" src="{{ site.posts.first.gravatar }}" alt="customer picture">
+          <a href="{{ site.posts.first.authorTwitter }}" class="social-link">Tw</a>
+          by: {{ site.posts.first.author }} <span> - {{ site.posts.first.date | date: '%B %d, %Y' }} </span>,<em> Thank you!</em>
+        </div>
+      <!-- 2nd Carousel Item -->
+        
+      </div>
+      
+  </section>
+
+  <!-- Press -->
+
+  <section class="colored-section bg-dark pb-0" id="press">
+    <img class="press-logo" src="images/techCrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+  <!-- Pricing -->
+
+  <section class="container pt-3" id="pricing">
+    <h2 class="section-heading">Products!</h2>
+    <p>Affordable customized Cake for your Day!.</p>
+
+ <!-- ProrductQuote -->
+    {% include productQuote.html %}
+      
+  </section>
