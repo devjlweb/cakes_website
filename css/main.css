@@ -229,6 +229,7 @@ flex: 1;
   background-size: cover;
   height: 6em;
   margin-bottom: 3em;
+
   }
   
 /* Post Html */
@@ -247,7 +248,7 @@ flex: 1;
 }
 .pull-left {
   float: left;
-  margin: 0 2em 2em 0;
+  margin: 2em 2em 2em -2%;
 }
 .pull-right {
   float: right;
