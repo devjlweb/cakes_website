@@ -178,6 +178,7 @@ flex: 1;
   }
 
   /* BLOG STYLES */
+  
   .blog-recent {
   text-align: right;
   }
@@ -306,6 +307,27 @@ flex: 1;
   .header-logo {
   left: auto;
   }
+
+  /* testimonials */
+  .active {
+    padding: 0;
+  }
+  #testimonials {
+    padding: 1em 0;
+
+  }
+  .pull-left {
+    float: none;
+    margin: 1em 0 0 0;
+  }
+
+  /* press */
+
+  #press {
+    display: none;
+  }
+
+
   /* BLOG STYLES */
   .post-aside {
   display: none;
@@ -332,3 +354,10 @@ flex: 1;
   }
   }
   
+  @media (max-width: 600px) {
+
+    .half-hero {
+      display: none;
+    }
+
+  }

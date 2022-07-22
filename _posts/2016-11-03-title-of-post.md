@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sooooo Yummy!!!!!!
-postHero: /images/whale.jpg
+postHero: /images/icingDrop.png
 author: Allysa
 authorTwitter: https://twitter.com/mhartl
 gravatar: /images/customer1e.jpg

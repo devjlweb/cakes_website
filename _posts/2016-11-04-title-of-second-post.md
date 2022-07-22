@@ -1,7 +1,7 @@
 ---
 layout: post
 title: So Yummy! Worth it!
-postHero: /images/happy_muffin.png
+postHero: /images/herobg.jpg
 author: Aubrey
 authorTwitter: https://twitter.com/mhartl
 gravatar: /images/customer2e.jpg
