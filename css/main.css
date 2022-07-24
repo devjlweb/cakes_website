@@ -34,10 +34,13 @@ h3 {
 .navbar-nav {
   color: #FFE3F1;
 }
-
+.nav-tabs {
+  padding: 5px;
+}
 
 .nav-item {
-  padding: 0 18px;
+  padding: 18px;
+
 }
 
 .nav-link {
