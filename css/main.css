@@ -24,6 +24,7 @@ h3 {
 
 .title p{
   font-size: 1.2rem;
+  line-height: 1.6;
 }
 /* Header and Nav*/
 .header-nav {
@@ -92,6 +93,11 @@ button {
   color: #FFE3F1;
 }
 
+/* Off Canvas aside */
+
+.blockquote-footer {
+  line-height: 1.6;
+}
 
 /* Features Section */
 
@@ -350,7 +356,7 @@ flex: 1;
     }
   
 
-  /* HOME STYLES */
+  HOME STYLES
 .home-callout {
   flex-direction: column;
   }

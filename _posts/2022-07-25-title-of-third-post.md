@@ -8,13 +8,11 @@ gravatar: /images/customer2e.jpg
 postFooter: Additional information, and maybe a <a href="#">link or  two</a>
 ---
 
-Call me *Ishmael*. Some years ago–*never mind how long
-precisely*–having little or no money in my purse, and nothing
-particular to interest me on shore, I thought I would sail about a
-little
-and see the watery part of the world. It is a way I have of driving
-off
-the spleen and regulating the circulation.
+
+If anyone knew how to bake a cake it was Joan; she made
+the most special birthday cakes of anyone around town. From
+her run down house, from inside the adorned walls, she made cakes
+fit for royalty!
 
 <img class="pull-left" src="/images/cakeT2.jpg" alt="cake">
 
